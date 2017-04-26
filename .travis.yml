@@ -1,6 +1,5 @@
 language: python
 python:
-    - 2.7.8
     - 2.7
     - pypy
     - 3.3
@@ -9,7 +8,7 @@ python:
     - 3.6
 # command to install dependencies
 install: 
-    - pip install selectors
+    - pip install kafka-python
 # command to run tests
 script:
     python test.py
