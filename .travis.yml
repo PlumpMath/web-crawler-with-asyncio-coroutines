@@ -1,6 +1,12 @@
 language: python
 python:
-  - "3.5"
+    - 2.7.8
+    - 2.7
+    - pypy
+    - 3.3
+    - 3.4
+    - 3.5
+    - 3.6
 # command to install dependencies
 install: 
   - pip install selectors
